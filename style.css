@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navBar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.menu li a:hover {
+    cursor: pointer;
+    color: rgb(133, 133, 133);
+}
